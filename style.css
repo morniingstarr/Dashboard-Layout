@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    width: 100%;
+}
+.topnav {
+    background-color: #151515;
+    padding: 20px;
+}
+.leftImg { 
+    position: absolute; 
+    top: -23px;
+    background: transparent;
+}
+.leftImg img {
+    width: 25%;
+}
+.centerBtn {
+    place-items: center;
+    text-align: center;
+}
+.centerBtn a {
+    font-family: 'Open Sans', sans-serif;
+    color: #DCDCDC;
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.rightBtn {
+    float: right;
+    text-align: right;
+}
+.rightBtn a {
+    color: #DCDCDC;
+    position: relative;
+    bottom: 21px;
+    right: 30p;
+    text-decoration: none;
+}
+.fa-solid {
+    color: rgb(227, 66, 52);
+    position: relative;
+    right: 2px;
+    top: 3px;
+}
+.fa-brands {
+    color: rgb(227, 66, 52);
+    position: relative;
+    right: 2px;
+    top: 3px;
+}
+.tab1 {
+    margin-top: 20px;
+    width: 85%;
+    margin-inline: auto;
+}
+.box {
+    position: relative;
+    top: -22px;
+}
+.boxIcon {
+    font-size: 40px;
+    position: relative;
+    right: 30px;
+    top: -95px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 14px;
+    padding-top: 9px;
+    float: right;
+}
+.boxT {
+    position: relative;
+    left: 30px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 2000;
+    font-size: 18px;
+    color: #DCDCDC;
+}
+.boxS {
+    position: relative;
+    left: 30px;
+    top: -22px;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    color: #c4c4c4;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
+    gap: 30px;
+    padding: 10px;
+    top: 80px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-color: #151515;
+  }
+  .item1 {
+    border-radius: 10px;
+    height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .item2 {
+    border-radius: 10px;
+    height: 60px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .item3 {
+    border-radius: 10px;
+    height: 60px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .item4 {
+    border-radius: 10px;
+    height: 60px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 380px 620px 550px;
+    gap: 30px;
+    padding: 10px;
+    top: 220px;
+  }
+  .grid2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-color: #151515;
+  }
+  .item5 {
+    border-radius: 10px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .item6 {
+    border-radius: 10px;
+    height: 300px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: 380px 380px 380px 380px;
+    gap: 30px;
+    padding: 10px;
+    top: 570px;
+  }
+  .grid3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-color: #151515;
+  }
+  .item7 {
+    border-radius: 10px;
+    height: 200px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
